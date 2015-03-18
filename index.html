@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--  manifest='/public/cache/lite.manifest' -->
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>统一社会化工作平台</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1"/>
+<link rel="stylesheet" href="css/jwcmn.css">
+<script type="text/javascript" src="./scripts/jquery.js"></script>
+<script type="text/javascript" src="./scripts/underscore.js"></script>
+<script type="text/javascript" src="./scripts/backbone.js"></script>
+<script type="text/javascript" src="./scripts/joywok.js"></script>
+</head>
+<body>
+	<div class="lite"></div>
+	</body>
+<script type="text/javascript">
+	var basurl = 'http://www.joywok.com';
+	var selfinfo = null;
+</script>
+<style type="text/css" id="liteStyle">
+</style>
+<style type="text/css">
+body{margin:0;padding:0;overflow: hidden;}
+.lite{position:absolute;width:100%;height:100%;background: #e7e7e7}
+.login-w{position:absolute;left:0;top:0;width:100%;height:100%;text-align: center;background: #e7e7e7}
+.login-w .pic{position: absolute;top:0;left: 0;right: 0;height: 140px;overflow: hidden;}
+.login-w .login-c{position: absolute;top:0;right: 0;bottom: 0;left: 0;}
+.login-c .login-user-avatar{margin:95px auto 0;width: 80px;height: 80px;border-radius: 80px;overflow: hidden;border:5px solid #f8f8f8;}
+.login-c .login-user-avatar img{width: 100%;height: 100%;}
+.login-c .login-input{height: 50px;width: 300px;margin:0 auto;border:1px solid #ddd;background: #fff;overflow: hidden;}
+.login-c .login-input .login-input-ico{float: left;width: 50px;height: 100%;}
+.login-c .login-input .login-input-c{display: block;margin:0 0 0 60px;}
+
+.login-c .login-input .input-w{border:none!important;box-shadow: none!important;height: 50px;overflow: hidden;}
+.login-c .login-input .input-w .input-co{margin:0;height: 100%;}
+.login-c .login-input input{height:100%;line-height:50px;border:none!important;font-size: 16px;outline: none;}
+.login-c .login-input .input-w:hover{border: none!important;}
+
+.login-c .login-input.email{margin:5px auto 0;}
+.login-c .login-input.email .login-input-ico{width: 24px;height: 22px;margin:14px 13px;background: url(images/login-email-ico.png) no-repeat;}
+.login-c .login-input.passwd{border-top: none;}
+.login-c .login-input.passwd .login-input-ico{width: 18px;height: 22px;margin:14px 16px;background: url(images/login-passwd-ico.png) no-repeat;}
+
+.login-c .login-btn-c{margin:15px auto auto;width: 300px;height: 40px;border:1px solid #78b6ff;}
+.login-c .login-btn-c .login-btn{width: 100%;height: 100%;background: #157efb;font-size: 16px;border: none;color: #fff;outline: none;}
+.login-c .login-btn-c .login-btn:disabled{background: #75b4ff;}
+.login-c .login-opear{margin:12px auto 0;width:300px;height: 20px;line-height: 20px;font-size: 12px;color: #666}
+.login-c .login-opear .login-forget{float: left;cursor: pointer;}
+.login-c .login-opear .login-new{float: right;cursor: pointer;}
+
+.login-w .login-close{position: absolute;top:10px;right: 10px;width:10px;height:10px;background:url(images/close.png) no-repeat;z-index: 100;cursor: pointer;}
+.login-w .login-mini{position: absolute;top:13px;right: 35px;width: 10px;height: 10px;background: url(images/mini.png) no-repeat;z-index: 2;cursor: pointer;}
+
+.close{position: absolute;top:0;right: 0;width:50px;height:50px;line-height:50px;text-align:center;font-size:30px;background:#bf0404;color:#fff;z-index: 22222}
+.open{position: absolute;top:0;right: 50px;width:50px;height:50px;line-height:50px;text-align:center;font-size:30px;background:#32a62e;color:#fff;z-index: 22222}
+.error-dialog{position: fixed;top:30px;left: 0;right: 0;text-align: center;z-index: 20}
+.jw-formnotice-c{display:inline-block;height:40px;line-height:40px;background:#bd4545;color:white;text-align:center;padding:0 36px;border-radius:6px;}
+.jw-formnotice-w a{margin-left:20px;color:white;text-decoration:underline;}
+</style>
+<script type="text/javascript" src="./scripts/main.js"></script>
+</html>
