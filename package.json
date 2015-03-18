@@ -1,8 +1,6 @@
 {
   "name": "jowyok-desktop",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,5 +12,25 @@
     "del": "^1.1.1",
     "express": "^4.12.3",
     "gulp": "^3.8.11"
-  }
+  },
+  "main":"index.html",
+  "description": "Joywok",
+  "title":"Joywok",
+  "window":{
+    "title": "Joywok",
+    "frame":false,
+    "toolbar": false,
+    "icon":"ico-s.png",
+    "width":430,
+    "height":400,
+    "resizable":false
+  },
+  "webkit":{
+    "plugin":true,
+    "page-cache":false
+  },
+  "permissions":"system",
+  "node-remote": "http://*.joywok.com",
+  "nodejs":true,
+  "address":"joywok.com"
 }
